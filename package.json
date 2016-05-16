@@ -1,0 +1,17 @@
+{
+  "name": "soundcloud-soundscraper",
+  "version": "0.1.0",
+  "description": "Download all your own SoundCloud tracks (from an authenticated session cookie)",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run manifest && node .",
+    "manifest": "curl -o collection.json --header \"Authorization:OAuth ${OAUTH}\" \"https://api-v2.soundcloud.com/stream/users/${USER_ID}?client_id=${CLIENT_ID:=JlZIsxg2hY5WnBgtn3jfS0UYCl0K8DOg}&limit=${LIMIT:=1000}&offset=0&linked_partitioning=1&app_version=o2r6ve\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.69.0"
+  }
+}

@@ -1,0 +1,7 @@
+/node_modules
+/.idea
+/npm-debug.log
+/errors.csv
+/tracks
+/.DS_Store
+/collection.json
