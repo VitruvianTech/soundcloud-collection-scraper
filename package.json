@@ -1,6 +1,6 @@
 {
-  "name": "soundcloud-soundscraper",
-  "version": "0.1.0",
+  "name": "@vitruvian-tech/soundcloud-downloader",
+  "version": "1.0.0",
   "description": "Download all your own SoundCloud tracks (from an authenticated session cookie)",
   "main": "index.js",
   "license": "MIT",
